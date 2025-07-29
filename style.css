@@ -1,0 +1,132 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 1.5rem 0;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #00aaff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #e0e0e0;
+}
+
+/* Features Section */
+.features {
+  background-color: #f7f7f7;
+  padding: 3rem 0;
+}
+
+.features h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.feature-item {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.feature-item h4 {
+  margin-bottom: 0.5rem;
+  color: #00aaff;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #efefef;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  color: #bbb;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
